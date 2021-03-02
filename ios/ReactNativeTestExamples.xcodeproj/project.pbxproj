@@ -209,7 +209,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A9524387EEF1A46F4D8A33B6 /* [CP] Embed Pods Frameworks */,
 				6999F1D946DC304AB7E0751F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -232,7 +231,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				B7D1CA83F772386C13D26588 /* [CP] Embed Pods Frameworks */,
 				05ED8C932A778D9F59D30BE0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -449,42 +447,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestExamples-ReactNativeTestExamplesTests/Pods-ReactNativeTestExamples-ReactNativeTestExamplesTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A9524387EEF1A46F4D8A33B6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestExamples-ReactNativeTestExamplesTests/Pods-ReactNativeTestExamples-ReactNativeTestExamplesTests-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestExamples-ReactNativeTestExamplesTests/Pods-ReactNativeTestExamples-ReactNativeTestExamplesTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B7D1CA83F772386C13D26588 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestExamples/Pods-ReactNativeTestExamples-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL/OpenSSL.framework/OpenSSL",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenSSL.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestExamples/Pods-ReactNativeTestExamples-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BEA713CCB1BA801138D2DEA0 /* [CP] Check Pods Manifest.lock */ = {
